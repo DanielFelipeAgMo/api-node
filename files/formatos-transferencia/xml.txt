@@ -1,0 +1,22 @@
+XML es un lenguaje de marcado similar a HTML. Significa Extensible Markup Language (Lenguaje de Marcado Extensible) 
+y es una especificación de W3C como lenguaje de marcado de propósito general. Esto significa que, a diferencia de otros 
+lenguajes de marcado, XML no está predefinido, por lo que debes definir tus propias etiquetas. 
+El propósito principal del lenguaje es compartir datos a través de diferentes sistemas, como Internet.
+
+Hay muchos lenguajes basados en XML; Algunos ejemplos son XHTML, MathML, SVG, XUL, XBL, RSS, y RDF. 
+
+XML "Correcto" (válido y bien formado)
+
+Para que un documento XML sea correcto, debe ser un documento bien formado, cumpliendo todas las reglas de sintaxis de XML, 
+y válidas, acorde a las reglas de un lenguaje específico. Un ejemplo de un documento que no está bien formado es uno que tiene 
+una etiqueta de apertura y no tiene una de cierre, ni se cierra en si misma.
+
+Para ser válido, un documento XML necesita cumplir ciertas reglas de semántica que son generalmente definidas en un esquema XML 
+o en una Definición de Tipo de Documento (en-US) (DTD). 
+Un documento que contiene una etiqueta no definida es inválido.
+
+Presentando XML
+
+XML es generalmente para propósitos descriptivos, pero hay maneras de presentar datos XML. 
+Si no defines una manera específica de renderizar XML, el contenido puro de XML es mostrado en el navegador.
+Una forma de estilizar la salida de XML es especificando CSS que aplique al documento usando la instrucción de procesamiento xml-stylesheet.

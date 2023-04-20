@@ -1,0 +1,41 @@
+JSON (JavaScript Object Notation - Notación de Objetos de JavaScript) es un formato ligero de intercambio de datos.
+Leerlo y escribirlo es simple para humanos, mientras que para las máquinas es simple interpretarlo y generarlo. 
+Está basado en un subconjunto del Lenguaje de Programación JavaScript, Standard ECMA-262 3rd Edition - Diciembre 1999. 
+JSON es un formato de texto que es completamente independiente del lenguaje pero utiliza convenciones que son ampliamente 
+conocidos por los programadores de la familia de lenguajes C, incluyendo C, C++, C#, Java, JavaScript, Perl, Python, y muchos otros. 
+Estas propiedades hacen que JSON sea un lenguaje ideal para el intercambio de datos.
+
+JSON está constituído por dos estructuras:
+
+    Una colección de pares de nombre/valor. En varios lenguajes esto es conocido como un objeto, registro, estructura, diccionario, 
+    tabla hash, lista de claves o un arreglo asociativo.
+
+    Una lista ordenada de valores. En la mayoría de los lenguajes, esto se implementa como arreglos, vectores, listas o sequencias.
+
+Estas son estructuras universales; virtualmente todos los lenguajes de programación las soportan de una forma u otra. 
+Es razonable que un formato de intercambio de datos que es independiente del lenguaje de programación se base en estas estructuras.
+
+En JSON, se presentan de estas formas:
+
+- Un objeto es un conjunto desordenado de pares nombre/valor. 
+  Un objeto comienza con {llave de apertura y termine con }llave de cierre. 
+  Cada nombre es seguido por :dos puntos y los pares nombre/valor están separados por ,coma.
+
+
+- Un arreglo es una colección de valores. Un arreglo comienza con [corchete izquierdo y termina con ]corchete derecho. 
+  Los valores se separan por ,coma.
+
+- Un valor puede ser una cadena de caracteres con comillas dobles, o un número, o true o false o null, o un objeto o un arreglo. 
+  Estas estructuras pueden anidarse.
+
+- Una cadena de caracteres es una colección de cero o más caracteres Unicode, encerrados entre comillas dobles, 
+  usando barras divisorias invertidas como escape. Un carácter está representado por una cadena de caracteres de un único carácter. 
+  Una cadena de carateres es parecida a una cadena de caracteres C o Java.
+
+- Un número es similar a un número C o Java, excepto que no se usan los formatos octales y hexadecimales.
+
+- Los espacios en blanco pueden insertarse entre cualquier par de símbolos.
+  Exceptuando pequeños detalles de encoding, esto describe completamente el lenguaje.
+
+ Pueden visitar el siguiente enlace: https://www.ibm.com/docs/es/baw/20.x?topic=formats-javascript-object-notation-json-format
+  

@@ -1,0 +1,23 @@
+Las siglas de FTP significan File Transfer Protocol, que se traduce como Protocolo de Transferencia de Archivos. Como su nombre indica, 
+se trata de un protocolo que permite transferir archivos directamente de un dispositivo a otro. Actualmente, es un protocolo que poco a 
+poco va abandonándose, pero ha estado vigente más de 50 años.
+
+El protocolo FTP se empezó a utilizar en abril de 1971, y terminó de definir su estructura en el 73, aunque durante las décadas de los 70 
+y los 80 del siglo pasado fue perfeccionándose. Para que te hagas una idea, este protocolo nació antes de que existieran Internet o el 
+correo electrónico, ya que fue uno de los componentes básicos de ARPANET, que fue esa red primigenia que luego dio lugar a Internet.
+
+Este protocolo funciona entre ordenadores que estén conectados a una red TCP, que significa Transmission Control Protocol o Protocolo 
+de control de transmisión. Este protocolo TCP da soporte a muchas tecnologías, entre ellas a Internet. Para que te hagas a la idea, la 
+familia de protocolos que forman Internet se llama TCP/IP.
+
+Pero vamos, dejándonos de palabrerías y nombres extraños, simplemente decirte que el protocolo FTP funciona para compartir archivos entre 
+ordenadores que estén conectados a Internet, y los archivos se comparten de forma directa y sin ningún intermediario.
+
+El protocolo FTP tal cual es un protocolo inseguro, ya que su información no viaja cifrada. Sin embargo, en 2001 esto se solucionó con el 
+protocolo FTPS, que le añade una capa SSH para hacerlo más seguro y privado.
+
+El FTP es un protocolo muy útil para el envío de archivos, ya que te permite enviarlos de un equipo a otro a gran velocidad de transferencia, 
+y no hay ningún tipo de límites de tamaño como puede pasar en la descarga directa. También suele utilizarse en contextos como la creación de 
+webs, pudiendo enviar pro FTP los ficheros de una web al servidor donde están.
+
+Se recomienda leer: https://www.ibm.com/docs/es/aix/7.1?topic=protocols-file-transfer-protocol

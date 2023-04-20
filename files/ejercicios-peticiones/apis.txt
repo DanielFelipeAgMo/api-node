@@ -1,0 +1,11 @@
+API 1: https://api-colombia.com/
+
+API 2: https://pokeapi.co/
+
+API 3: https://rickandmortyapi.com/
+
+API 4: https://developer.marvel.com/
+
+API 5: https://openweathermap.org/api
+
+API 6: https://www.superheroapi.com/

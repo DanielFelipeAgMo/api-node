@@ -1,0 +1,29 @@
+SOAP (anteriormente conocido como Simple Object Access Protocol) es un protocolo ligero para el intercambio de 
+información en entornos descentralizados y distribuidos. Los mensajes SOAP son las transmisiones de información 
+de remitentes a destinatarios. Los mensajes SOAP se pueden combinar para crear patrones de petición/respuesta.
+
+SOAP es independiente del transporte pero habitualmente se lleva a través de HTTP para ejecutarse con la infraestructura 
+de Internet existente. SOAP habilita el enlace y la utilización de servicios Web descubiertos definiendo una vía de acceso 
+de mensajes para direccionar mensajes. Se utiliza SOAP para consultar UDDI para servicios Web. El entorno de trabajo admite 
+SOAP 1.1.
+
+SOAP es un protocolo basado en XML que define tres partes en todos los mensajes:
+
+    +Sobre. El sobre define una infraestructura para describir qué hay en un mensaje y cómo procesarlo. 
+     Un mensaje SOAP es un sobre que contiene cero o varias cabeceras y exactamente un cuerpo. 
+     El sobre es el elemento superior del documento XML que proporciona un contenedor para la información de control, 
+     la dirección de un mensaje y el mensaje en sí. Las cabeceras transportan información de control como por ejemplo 
+     atributos de calidad de servicio. El cuerpo contiene la identificación del mensaje y sus parámetros. 
+     Tanto las cabeceras como el cuerpo son elementos hijo del sobre.
+
+    +Reglas de codificación. El conjunto de reglas de codificación expresa instancias de tipos de datos definidos por la aplicación. 
+     Las normas de codificación definen un mecanismo de serialización que se puede utilizar para intercambiar instancias de tipos de 
+     datos definidos por la aplicación. SOAP define un esquema de tipo de datos independiente del lenguaje de programación basado en 
+     XSD y normas de codificación para todos los tipos de datos definidos de acuerdo a este modelo. La codificación SOAP no es 
+     compatible con WS-I y por lo tanto se sugiere el uso Literal (que no está codificado) para servicios Web interoperativos y se 
+     requiere para la compatibilidad con WS-I.
+
+    +Estilos de comunicación. Las comunicaciones pueden seguir el formato RPC (llamada a procedimiento remoto) u orientado a mensajes 
+    (Documento). 
+
+    Se recomienda leer: https://www.ibm.com/docs/es/rsas/7.5.0?topic=standards-soap

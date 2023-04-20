@@ -1,0 +1,10 @@
+Así como REST es el estilo de Arquitectura, RESTful es la implementación de dicha arquitectura.
+
+Entonces por simple sentido común un API RESTful es un API que fue diseñada usando la arquitectura REST. 
+Así de sencillo estimados, no hay por qué complicarse más.
+
+Entonces quiere decir que...
+
+Un API que usa la arquitectura REST se le llama API RESTful la cual emplea el formato de texto JSON para 
+intercambiar datos, ya no dudarás cuando te pregunten por estos conceptos y cuando te toque diseñar un API 
+lo harás como un dev seguro.

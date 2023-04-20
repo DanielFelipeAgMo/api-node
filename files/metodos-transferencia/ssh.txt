@@ -1,0 +1,25 @@
+SSH es un protocolo que garantiza que tanto el cliente como el servidor remoto intercambien informaciones de 
+manera segura y dinámica. El proceso es capaz de encriptar los archivos enviados al directorio del servidor, 
+garantizando que las alteraciones y el envío de datos sean realizados de la mejor forma.
+
+ ¿Qué es el protocolo SSH?
+
+SSH es una sigla, o acrónimo, para el término secure shell, que significa cápsula segura. En la práctica, 
+el protocolo SSH es un mecanismo de seguridad ofrecido por los servicios de hospedaje.
+
+Su función es garantizar que haya una conexión segura entre el computador y el servidor remoto, garantizando 
+la transferencia de datos sin ninguna pérdida de información.
+
+El SSH tiene la función de permitir a los usuarios y desarrolladores realizar cualquier modificación en sitios 
+y servidores utilizando una conexión simple.
+
+De esa forma, por medio de un computador conectado a internet, esa persona puede configurar, modificar archivos 
+e incluso trabajar en el desarrollo de una página web.
+
+La propuesta de ese protocolo es justamente crear un método seguro, que garantice que no habrá ninguna invasión 
+de esos archivos y de sus códigos.
+
+Por eso, son usadas criptografías que garantizan que solamente dos puntos accedan a las informaciones: 
+el servidor y el computador que envió los datos para ese local remoto.
+
+Se recomienda leer: https://rockcontent.com/es/blog/ssh/

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE body [
+    <!ENTITY warning "Advertencia: Algo malo pasó... porfavor intente de nuevo.">
+]>
+<body>
+    <message> &warning; </message>
+    <message>
+        <warning>
+             Hola, mundo
+        </warning>
+    </message>
+
+    <Estudiantes>
+        <Estudiante>
+            <firstName>Juan</firstName> <lastName>perez</lastName>
+        </Estudiante>
+        <Estudiante>
+            <firstName>Luis</firstName> <lastName>zapata</lastName>
+        </Estudiante>
+        <Estudiante>
+            <firstName>karen</firstName> <lastName>días</lastName>
+        </Estudiante>
+        <Estudiante>
+            <firstName>Daisy</firstName> <lastName>García</lastName>
+        </Estudiante>
+    </Estudiantes>
+</body>
+
+
+
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>

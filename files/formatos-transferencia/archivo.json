@@ -1,0 +1,28 @@
+{
+    "firstName": "John",
+    "lastName": "Smith",
+    "address": [{
+            "streetAddress": "21 2nd Street",
+            "city": "New York",
+            "state": "NY",
+    	    "postalCode": 10021
+        },{
+    	    "streetAddress": "577 Airport Blvd",
+    	    "city": "Burlingame",
+    	    "state": "CA",
+            "postalCode": 94010
+    	    }],
+    "phoneNumbers": [
+        "212-732-1234",
+    	"646-123-4567"
+        ],
+        "Alumnos":[
+            { "firstName":"juan", "lastName":"perez" },
+            { "firstName":"luis", "lastName":"zapata" },
+            { "firstName":"karen", "lastName":"días" },
+            { "firstName":"daisy", "lastName":"garcía" }
+        ]
+
+}
+
+

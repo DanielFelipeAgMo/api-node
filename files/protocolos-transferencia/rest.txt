@@ -1,0 +1,56 @@
+REST es una interfaz para conectar varios sistemas basados en el protocolo HTTP (uno de los protocolos más antiguos) 
+y nos sirve para obtener y generar datos y operaciones, devolviendo esos datos en formatos muy específicos, como XML y JSON.
+
+El formato más usado en la actualidad es el formato JSON, ya que es más ligero y legible en comparación al formato XML. 
+Elegir uno será cuestión de la lógica y necesidades de cada proyecto.
+
+REST se apoya en HTTP, los verbos que utiliza son exactamente los mismos, con ellos se puede hacer GET, POST, PUT y DELETE. 
+De aquí surge una alternativa a SOAP.
+
+Cuando hablamos de SOAP hablamos de una arquitectura divididas por niveles que se utilizaba para hacer un servicio, es más complejo 
+de montar como de gestionar y solo trabajaba con XML.
+
+Ahora bien, REST llega a solucionar esa complejidad que añadía SOAP, haciendo mucho más fácil el desarrollo de una API, 
+en este caso de un servicio en el cual nosotros vamos a almacenar nuestra lógica de negocio y vamos servir los datos con una serie de 
+recursos URL y una serie de datos que nosotros los limitaremos, es decir, será nuestro BACKEND nuestra lógica pura de negocios que nosotros 
+vamos a utilizar.
+
+REST es la contrapartida a SOAP, a mi modesto entender es mucho mejor y más sencillo y versátil.
+
+Las peticiones que le hacemos al servidor son clasificadas mediante lo conocido como verbos HTTP y pueden ser:
+GET
+
+Nos permite obtener recursos del servidor como la lista de cuentas bancarias que el usuario Pepe el Grillo tiene.
+POST
+
+Inserta un recurso nuevo, por ejemplo usando el API de Netflix guardamos una nueva película en nuestra lista de favoritos.
+PUT
+
+Actualiza un recurso en el servidor, por ejemplo queremos actualizar nuestros datos personales usando el API de nuestro banco.
+PATCH
+
+Hace una actualización parcial, a diferencia del PUT en el que debemos enviar todo porque actualizará todo con lo que le enviemos y 
+si dejamos de enviarle algún campo le pondrá como valor vacío si la lógica del negocio lo permite. Por ejemplo quiero actualizar mi 
+correo de recuperación de mi servicio de mensajería Gmail.
+DELETE
+
+Borra un recurso en el servidor, por ejemplo con el API de una plataforma como Youtube quiero eliminar una lista de reproducción.
+
+    HEAD
+    CONNECT
+    OPTIONS
+    TRACE
+
+Los más utilizados son los primeros cinco de la lista, pero igual te sirve como cultura general conocerlos todos, más detalle aquí.
+Principios de REST
+
+    Interfaz uniforme: Esta basado en recursos y estos deben ser sustantivos en plural por ejemplo: libros, alumnos, peliculas, etc.
+    Stateless: REST no tiene estados, esto quiere decir que una llamada al API es independiente de otra llamada y no depende de ella, 
+    sin embargo sí se puede usar caché para reducir el tiempo de espera en consultas GET.
+    Operaciones específicas: Cada acción u operacion sobre un recurso está bien definido y tiene un claro propósito, no es "multifuncional" 
+    si un endpoint por ejemplo es para insertar nuevos clientes, no debería también insertar pedidos.
+    Sintaxis estandarizada: Cada recurso es accesibe únicamente desde su URI.
+    Cliente-Servidor: El servidor hace el procesamiento del API y expone los recursos a uno o muchos clientes, que pueden ser una aplicación 
+    de escritorio, una página web, etc. El cliente debe ser independiente del servidor y toda comunicación a él se debe dar mediante el API.
+
+Se recomienda leer: https://openwebinars.net/blog/que-es-rest-conoce-su-potencia/
