@@ -20,14 +20,20 @@
     "swagger-ui-express": "^4.6.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-jest": "^29.5.0",
     "jest": "^29.5.0",
     "nodemon": "^2.0.20",
     "supertest": "^6.3.3"
   },
-  "jest":{
+  "jest": {
     "testEnvironment": "node",
-    "coveragePathIgnorePatterns":[
+    "coveragePathIgnorePatterns": [
       "/node_modules/"
-    ]
+    ],
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
   }
 }
